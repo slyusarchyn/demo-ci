@@ -1,0 +1,24 @@
+{
+    "name": "slyusarchyn/workshop-ci",
+    "authors": [
+        {
+            "name": "Sasha Slyusarchyn",
+            "email": "sashaslyusarchyn@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "description": "Circle CI",
+    "require": {
+        "phpunit/phpunit": "^7.1",
+        "sensiolabs/security-checker": "^5.0",
+        "friendsofphp/php-cs-fixer": "^2.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        }
+    },
+    "require-dev": {
+        "jakub-onderka/php-parallel-lint": "^1.0"
+    }
+}
